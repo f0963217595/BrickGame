@@ -14,4 +14,9 @@ class Bottom:
     #bottom.move(x)
     def move(self, x):
         self.x = x
+
+        if self.x <= 0:
+            self.x = 0
+        if self.x >= 700:
+            self.x = 700
     
